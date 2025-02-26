@@ -50,10 +50,11 @@
     "itemType": "magnet"
   },
   {
-    "name": "Nyaa",
-    "url": "https://nyaa.iss.ink/search?q=%s",
-    "type": "html",
-    "magnetTargetKey": "a[href^='magnet:?xt=urn:btih:']|href",
-    "itemType": "magnet"
+    "name": "Nyaa.si",
+    "url": "https://nyaa.si/?f=0&c=1_0&q=%s&p=1&sort=seeders&order=desc&json=1",
+    "type": "json",
+    "itemType": "magnet",
+    "magnetTargetKey": "magnet",
+    "torrentNameTargetKey": "name"
   }
 ]
