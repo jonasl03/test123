@@ -55,5 +55,5 @@
     "type": "html",
     "magnetTargetKey": "a[href^='magnet:?xt=urn:btih:']|href",
     "itemType": "magnet"
-  }
+  },
 ]
